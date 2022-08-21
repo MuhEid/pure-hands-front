@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'wintersoul';
+    src: url('./assets/fonts/Wintersoul.ttf');
+  }
+
+  @font-face {
+    font-family: 'valkyrie';
+    src: url('./assets/fonts/Valkyrie-BoldExtended.ttf');
+  }
+
+  @font-face {
+    font-family: 'google';
+    src: url('./assets/fonts/GoogleSans-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'canela';
+    src: url('./assets/fonts/Canela-Thin.ttf');
+  }
+  @font-face {
+    font-family: 'canela';
+    src: url('./assets/fonts/Canela-Light-Trial.otf');
+    font-weight: 500;
+    font-style: normal;
+  }
+}
