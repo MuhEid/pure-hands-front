@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import About from '../routes/About';
 import Home from '../routes/Home';
-import Footer from './Footer';
+import Footer from './Footer/Footer';
 import Header from './Header/Header';
 
 export default function Layout(props) {
