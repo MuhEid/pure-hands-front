@@ -17,6 +17,12 @@
     font-family: 'google';
     src: url('./assets/fonts/GoogleSans-Regular.ttf');
   }
+  @font-face {
+    font-family: 'google';
+    src: url('./assets/fonts/GoogleSans-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+  }
 
   @font-face {
     font-family: 'canela';
