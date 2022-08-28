@@ -6,7 +6,7 @@ import { HiOutlineMenu } from 'react-icons/hi';
 
 export default function Header() {
   return (
-    <div className="sticky flex items-center w-full bg-[#F1F0EC] p-3">
+    <div className="sticky flex items-center w-full bg-background-100 p-3">
       <button className="block lg:hidden">
         <HiOutlineMenu size={26} />
       </button>
